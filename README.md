@@ -1,3 +1,3 @@
 # Survey-Form
 sample survey form
-https://github.com/centeno-charlene/Survey-Form
+https://centeno-charlene.github.io/Survey-Form/
