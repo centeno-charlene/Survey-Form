@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			body{
+				font-family: monospace;
+				padding-left: 32%;
+				background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+
+				}
+			label{
+				font-size: 18px;
+				display: block;
+			}
+
+			input{
+				display: block;
+			}
+			form{
+				background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+				padding: 20px 20px 20px 20px;
+			}
+
+
+
+		</style>
+
+
+	
+
+	</head>
+<body>
+	<h1 id="title"><i> Survey About Movie</i></h1>
+	<p id="description">
+		This is a survey where you can rate about the movie you've watched.
+	</p>	
+	<form id="survey-form">
+		
+		<label id="name-label"><b>Name:</b></label>
+		<input type="text" name="name" id="name" placeholder="Juan Dela Cruz" required></input>
+		<br>
+		<br>
+		
+		<label id="email-label"><b>Email:</b></label>
+		 <input type="email" name="email" id="email" placeholder="juancruz@gmail.com" required></input>
+		<br>
+		<br>
+
+		<label id="number-label"><b>Age:</b></label>	
+		<input type="number" name="number" id="number" min="18" max="100" placeholder="18" required></input>
+		<br>
+		<br>
+
+		<label id="movies"><b>Movies:</b></label>
+		<select  id="dropdown" name="movie">
+		  
+		  <option value="avengers">Avengers</option>
+		  <option value="avatar">Avatar</option>
+		  <option value="deadpool">Deadpool</option>
+		  <option value="twilight">Twilight</option>
+
+
+		
+		</select>
+			<br>
+			<br>
+
+			<input type="radio" id="male" name="gender" value="male">
+			<label for="male">Male</label><br>
+			<input type="radio" id="female" name="gender" value="female">
+			<label for="female">Female</label><br>
+			<input type="radio" id="other" name="gender" value="other">
+			<label for="other">Other</label>
+
+
+		<br>
+		<br>
+
+		<input type="checkbox" id="verygood" name="verygood" value="verygood">
+		<label for="verygood"> Very Good!</label><br>
+		<input type="checkbox" id="good" name="good" value="good">
+		<label for="good"> It's good.</label><br>
+		<input type="checkbox" id="fine" name="fine" value="fine">
+		<label for="fine"> Fine.</label><br>
+
+		<br>
+
+		<label for="review">Tell us your review :)</label><br>
+
+	<textarea id="review" name="review" rows="4" cols="50">
+	
+	</textarea><br>
+
+
+		<input type="submit" id="submit"></input>
+
+
+	</form>
+
+
+
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+
+
+
+</html>
